@@ -51,9 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 8.0,
             ),
             TextField(
-              onChanged: (value) {
-                //Do something with the user input.
-              },
+              onChanged: (value) {},
               decoration: InputDecoration(
                 hintText: 'Enter your password.',
                 contentPadding:
